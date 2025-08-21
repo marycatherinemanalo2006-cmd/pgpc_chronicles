@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PGPC</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #0d1321;
+        }
+
+        header{
+        border: 3px solid #111a2e;
+        border-radius: 5px;
+        padding-left: 10px;
+        
+       }
+       h1,h2,h3,p{
+        color: white;
+       }
+
+       #nav_box{
+        border: 3px solid #111a2e;
+        border-radius: 8px;
+        margin-top: 15px;
+        padding: 20px;
+        padding-left: 5px;
+        
+       }
+
+       .navigation{
+        padding-left: 5px;
+        display: flex ;
+        gap: 10px;
+        justify-content: space-around;
+       }
+
+       .navigation a{
+        color: white;
+        background-color: #1a2236;
+        padding: 15px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        padding-left: 45px;
+        padding-right: 45px;
+        
+       }
+
+       .navigation a:hover, .navigation a:focus{
+        background-color: #4da6ff;
+        color: #0d1321;
+
+       }
+
+       main{
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        
+       }
+
+       #main_box{
+        border: 3px solid #1a2236;
+        border-radius: 5px;
+        margin:5px;
+
+       }
+
+       .border{
+        border: 3px solid #1a2236;
+        border-radius: 5px;
+        margin: 5px;
+        padding-left: 5px;
+       }
+
+       .osrpic{
+        max-width: 100%;
+        padding: 5px;
+
+       }
+
+       .osrpic img{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        display: block;
+       }
+       
+       .osrpic a{
+        color:#ffff;
+        background-color: #1a2236;
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+       }
+
+        a:hover, a:focus{
+        background-color: #4da6ff;
+        color: #0d1321;
+       }
+
+       .highlight{
+        color: #43578a;
+        font-size: small;
+       }
+
+       .h2h2{
+        padding-left: 5px;
+       }
+
+       .card{
+        padding:20px;
+        border: 3px soid #1a2236;
+        border-radius: 5px;
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 250px;
+        max-width: 32%;
+       }
+
+       .card img{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 15px;
+       }
+
+       .card .btn{
+        border: 1px solid #1a2236;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #43578a;
+        border-radius: 5px;
+        text-align: center;
+       }
+       
+       .card .btn:hover{
+        background-color: #4da6ff;
+        color: #0d1321;
+       }
+
+       .card p{
+        color: #43578a;
+       }
+
+       .card h3{
+        margin-top: 10px;
+       }
+       
+       .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       }
+
+       footer{
+        margin-top: 15px;
+        padding-top: 15px;
+        text-align: center;
+        color:#1a2236;
+        border-top: dashed;
+       }
+
+       footer p{
+        color: #43578a;
+       }
+
+       aside{
+        margin: 5px;
+        border:3px solid #1a2236;
+        border-radius: 5px;
+        padding: 5px;
+       }
+
+       aside h2{
+        margin: 15px;
+       }
+
+       aside ul{
+        color: white;
+       }
+
+    </style>
+</head>
+<body>
+        <header id="header">
+            <h1>PGPC Chronicle</h1>
+            <p>An official communication channel of PGPC</p>
+        </header>
+    
+    
+    <div id="nav_box">
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Events</a>
+            <a href="#">Departments</a>
+            <a href="#">About</a>
+        </nav>
+    </div>
+
+    <main>
+        <article id="main_box">
+            <div class="border">
+                <h2>Orientation Schedule Released</h2>
+                <p>Published August 19, 2025. by <a href="#">Admin</a></p>
+            </div>
+            <div class="osrpic">
+                <img src="picture1.jpg">
+                <p class="highlight">Welcome activites kick off at the main auditorium.</p>
+                    <p>
+                        The Padre Garcia Polytechnic College shall primarily provide advanced education, higher technological, and professional instruction and training in the areas of science, arts, education, business, engineering, computing, health, governance, criminal justice, social services, and provide progressive leadership in its areas of specialization. 
+                    </p>
+                    <a href="#">View Program</a>
+            </div>
+            <section>
+
+                <h2 class="h2h2">PGPC VISION, MISSION, AND CORE VALUES</h2>
+                <div class="container">
+                <div class="card">
+                    <img src="pic2.jpg">
+                    <h3>The Vision of the Padre Garcia Polytechnic College(PGPC) shall be:</h3>
+                    <p>PGPC is a premier local higher learning institution in region, producing globally competitive and excellent professionals and leaders instrumental to community development and nation building.</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="card">
+                    <img src="pic3.jpg" width="30%" height="30%">
+                    <h3>The Mission of the Padre Garcia Polytechnic College(PGPC) shall be:</h3>
+                    <p>As a higher learning institution in region, PGPC is committed to produce globally competitive professionals and leaders with industry based knowledge, skills, and values that will enable them to achieve their professional growth and total human development.</p>
+                    <a href="#"  class="btn">Read more</a>
+                </div>
+
+                <div class="card">
+                    <img src="pic4.jpg" width="30%" height="30%">
+                    <h3>The PGPC Core Values shall be:</h3>
+                    <p>
+                        P - Professional development<br>
+                        G - God-Centered Community<br>
+                        P - Progessive Community<br>
+                        C - Commitment to Excellence
+                    </p>
+                    <a href="#"  class="btn">Read more</a>
+                </div>
+            </div>
+            </section>
+        </article>
+
+        <aside>
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="#">Campus Map</a></li>
+                <li><a href="#">Accessibility Services</a></li>
+                <li><a href="#">Student Handbook</a></li>
+            </ul>
+        </aside> 
+    </main>
+
+    
+
+    <footer>
+        <p>&copy; Campus Chronicle</p>
+        <p>Brgy. Castillo, Padre Garcia, Batangas</p>
+    </footer>
+</body>
+</html>
